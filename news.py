@@ -74,7 +74,7 @@ if esegui:
         st.stop()
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     with st.spinner("Raccolta notizie ed elaborazione del bias in corso..."):
         articles = fetch_top_news_24h(categoria)
