@@ -1,0 +1,5 @@
+streamlit
+feedparser
+sentence-transformers
+scikit-learn
+google-generativeai
