@@ -3,3 +3,6 @@ feedparser
 sentence-transformers
 scikit-learn
 google-genai
+torch
+torchvision
+transformers
